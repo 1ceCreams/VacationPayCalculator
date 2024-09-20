@@ -1,5 +1,8 @@
 package com.app.vacationpaycalculator.services;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class CalculateService {
     final double AVERAGE_DAY_IN_MONTH = 29.4;
     public int calculateVacationPay(double salary, int vacationsDays) {
